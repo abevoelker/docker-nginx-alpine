@@ -1,9 +1,13 @@
 # About this Repo
 
-This is the Git repo of the official Docker image for [nginx](https://registry.hub.docker.com/_/nginx/). See the
-Hub page for the full readme on how to use the Docker image and for information
-regarding contributing and issues.
+This is a fork of the [official nginx Docker images](https://github.com/nginxinc/docker-nginx).
 
-The full readme is generated over in [docker-library/docs](https://github.com/docker-library/docs),
-specificially in [docker-library/docs/nginx](https://github.com/docker-library/docs/tree/master/nginx).
+This fork adds Alpine Linux images of nginx that are compiled with
+[Google's Brotli compression nginx module](https://github.com/google/ngx_brotli).
 
+Images are published on the
+[official/public Docker registry](https://hub.docker.com/r/abevoelker/docker-nginx-alpine-brotli/)
+with the following tags:
+
+  * abevoelker/docker-nginx-alpine-brotli:mainline
+  * abevoelker/docker-nginx-alpine-brotli:stable
